@@ -1,3 +1,11 @@
+// ══════════════════════════════════════════════════════
+// COMPONENT: Home (page.js)
+// PURPOSE:   Self-contained task manager. All components
+//            are defined in this single file to avoid any
+//            import/module resolution issues.
+// TYPE:      Client Component — needs useState and useEffect
+// PROPS:     None.
+// ══════════════════════════════════════════════════════
 
 'use client';
 

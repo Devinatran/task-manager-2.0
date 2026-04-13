@@ -1,4 +1,14 @@
-
+// ══════════════════════════════════════════════════════
+// COMPONENT: RootLayout
+// PURPOSE:   Wraps every page in the app with a shared
+//            <html> and <body> shell. Sets the page title
+//            and imports global Tailwind styles.
+// TYPE:      Server Component — no interactivity needed here.
+//            Next.js treats any component without 'use client'
+//            as a Server Component by default.
+// PROPS:     children — whatever page.js renders gets slotted in.
+// ══════════════════════════════════════════════════════
+ 
 import './globals.css';
 
 // metadata is a Next.js App Router convention for setting
